@@ -1,0 +1,25 @@
+:root {
+    --bgrd-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--bgrd-color);
+    transition: background-color 1s ease;
+}
+
+.soccer-matches {
+    transition: all 1s ease;
+}
+
+.soccer-matches:hover {
+    font-size: larger;
+    --bgrd-color: #99FF99;
+}
+
+.capitol-films {
+    transition: all 1s ease;
+}
+
+.capitol-films:hover {
+    font-size: larger;
+}
